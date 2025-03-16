@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Tipos de listas</h1>
+
+    <h2>1. Lista ordenada:</h2>
+    <h3><code>&lt;/ol&gt;</code> ordered list / <code>&lt;/li&gt;</code> list item</h3>
+
+    <p><strong>Exemplo 1 (normal):</strong></p>
+    <ol>
+        <p><strong>Lista de tarefas:</strong></p>
+        <li>Escrever diário de bordo</li>
+        <Li>Fazer a primeira refeição do dia</Li>
+        <li>Voltar ao diário de bordo</li>
+    </ol>
+
+    <p><strong>Exemplo 2 com atributos <code>start</code> e <code>type</code> &rarr; parâmetros (<code>1, A, a, I, i</code>):</strong></p>
+    <ol start = 12>
+        <p><strong>Pedaço da mesma lista de tarefas [Noite]:</strong></p>
+        <li>Fazer manutenção no repositório</li>
+        <li>Realizar ajustes do piloto-seguro</li>
+        <ol type = "A">
+            <li>Revisar cabeamento</li>
+            <li>Revisar as placas </li>
+            <li>Fechar com parafusos G-LM</li>
+        </ol>
+        <li>Fazer a quinta refeição do dia</li>
+    </ol>
+
+    <h2>2. Lista não-ordenada:</h2>
+    <h3><code>&lt;/ul&gt;</code> unordered list / <code>&lt;/li&gt;</code> list item</h3>
+
+    <!--Chup Chup Gamer-->
+    <p><strong>Exemplo com atributo <code>type</code> &rarr; parâmetros (<code>disc &gt; circle &gt; square</code>):</strong></p>
+    <ul>
+        <li>Fazer café</li>
+        <li>Estudar</li>
+        <ul type = "circle">
+            <li>Matemática: Geometria</li>
+            <ul type = "square">
+                <li>Retângulos</li>
+                <li>Círculos</li>
+            </ul>
+            <li>Biologia</li>
+            <li>IHC</li>
+        </ul>
+        <li>Tomar café da manhã</li>
+        <li>Almoçar</li>
+    </ul>
+
+    <h2>3. Lista de definição:</h2>
+    <h3><code>&lt;/dl&gt;</code> definition list / <code>&lt;/dt&gt;</code> definition term &rarr; <code>&lt;/dd&gt;</code> definition details</h3>
+
+    <p><strong>Uma lista de definição é aquela que guarda o que?! Isso mesmo, definições! Com cada <code>definição</code> contendo seus respectivos <code>termos</code> e <code>detalhes</code>.</strong></p>
+
+    <p><strong>&rarr; Contextualização:</strong></p>
+    <dl>
+        <dt>Termo de Definição especificado (definition term)</dt>
+        <dd>Detalhes dessa definição (definition details)</dd>
+
+    <p><strong>&rarr; Exemplos:</strong></p>
+        <dt>HTML</dt>
+        <dd>Uma linguagem de marcação de hipertexto, cria o conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Uma linguagem de estilização de folhas em cascata, cria o design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Uma linguagem de programação, cria a interatividade de um site.</dd>
+    </dl>
+</body>
+</html>
