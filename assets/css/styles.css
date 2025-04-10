@@ -1,5 +1,17 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: aliceblue;
-    color: rgb(0, 66, 66);
+    background-color: rgb(255, 255, 251);
+    color: rgb(142, 103, 3);
+    margin: 10px; 
+}
+code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #eeeeee;
+    border-radius: 3px;
+    padding: 0 3px;
+}
+.title {
+    background: linear-gradient(to right, rgb(203, 149, 13), rgb(142, 103, 3), rgb(142, 103, 3), rgb(142, 103, 3));
+    background-clip: text;
+    color: transparent;
 }
